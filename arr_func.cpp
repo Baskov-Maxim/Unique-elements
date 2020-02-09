@@ -41,7 +41,7 @@ void unique_arr(int* arr, const int SIZE)
 	bool isEqual;
 	for (int i = 0; i < SIZE; )
 	{
-		isEqual = false;				// предполагается, что изначально не равны
+		isEqual = false;		// предполагается, что изначально не равны
 		int newNum = rand() % 20 + 1;	// Генерация чисел от 0 до 20 новому числу
 
 		for (int j = 0; j < i; j++)
