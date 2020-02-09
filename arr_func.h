@@ -1,11 +1,11 @@
 #ifndef ARR_FUNC_H		// Header Guards
 #define ARR_FUNC_H		// ARR_FUNC_H
 
-void set_arr(int* arr, const int SIZE);		// Заполняем массив элементами
-void print_arr(int* arr, const int SIZE);	// Вывод массива элементами
-void start_arr();							// Функция старт-программы
-bool check_mass(int* arr, const int SIZE);	// Проверка на уникальность
-void unique_arr(int* arr, const int SIZE);	// Заполнение уникальными элементами
-void max_min_arr(int* arr, const int SIZE);	// Поиск min и max значений
+void set_arr(int* arr, const int SIZE);		  // Р—Р°РїРѕР»РЅСЏРµРј РјР°СЃСЃРёРІ СЌР»РµРјРµРЅС‚Р°РјРё
+void print_arr(int* arr, const int SIZE);	  // Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° СЌР»РµРјРµРЅС‚Р°РјРё
+void start_arr();							              // Р¤СѓРЅРєС†РёСЏ СЃС‚Р°СЂС‚-РїСЂРѕРіСЂР°РјРјС‹
+bool check_mass(int* arr, const int SIZE);	// РџСЂРѕРІРµСЂРєР° РЅР° СѓРЅРёРєР°Р»СЊРЅРѕСЃС‚СЊ
+void unique_arr(int* arr, const int SIZE);	// Р—Р°РїРѕР»РЅРµРЅРёРµ СѓРЅРёРєР°Р»СЊРЅС‹РјРё СЌР»РµРјРµРЅС‚Р°РјРё
+void max_min_arr(int* arr, const int SIZE);	// РџРѕРёСЃРє min Рё max Р·РЅР°С‡РµРЅРёР№
 
 #endif
